@@ -37,8 +37,8 @@ column 11: semi minor axis of L plane cross section with shell
 The folder "binary_tables_compact_ss_units" (which should be unzipped for the code to work); only includes properties that are useful in the described subroutine, and for mass transfer calculations. The 3 properties in column 4, 6, and 8 are now provided in the units of a single point-mass star's gravitational acceleration at that zone.
 The full format of these tables are listed below:
 
-column 1: relative potential of shell  
-column 2: volume equivalent radius of shell divided by orbital separation  
+column 1: volume equivalent radius of shell divided by orbital separation  
+column 2: relative potential of shell  
 column 3: relative avg acceleration on shell   
 column 4: relative avg acceleration on L plane cross section with shell  
 column 5: area of L plane cross section with shell  
