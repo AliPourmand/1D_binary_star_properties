@@ -1,6 +1,9 @@
 # 1D_binary_star_properties
 
-The provided codes have been made with the purpose of obtaining the 1D effective acceleration a star in a binary system feels (which is a function of the distance to the center of the star).
+The main purpose of this repository is to provide numerical tables describing binary properties. The description of the method with which the tables were obtained can be found in the accomponiing paper ``Properties of binary systems in a one-dimensional approximation". IF you use the tables in your research, we ask you to cite the paper.
+
+The provided sample code demonstrates how to obtaine the 1D effective acceleration a star in a binary system feels (which is a function of the distance to the center of the star).
+
 
 The effective acceleration at each local zone of the star is a function of the following parameters, which have been denoted in the way they appear in the gravity_table_use_example.f90 code:
 
