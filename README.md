@@ -24,18 +24,31 @@ We have provided extra information as well, that could be useful for mass transf
 The full format of the table is listed below:
 
 column 1: equipotential shell number
+
 column 2: mass ratio of system (donor to companion)  
+
 column 3: relative potential as defined in Mochnacki (1984)  eg, for potentials higher than psiL1: F=psiL1/psi  
+
 column 4: potential of shell  
+
 column 5: volume equivalent radius of shell divided by orbital separation  
+
 column 6: avg acceleration on shell   
+
 column 7: inverse effective acceleration averaged on the equipotential shell
+
 column 8: total area of shell  
+
 column 9: area of $L_1$ plane cross section with shell  
+
 column 10: y intersection of $L_1$ plane cross section with shell  
+
 column 11: z intersection of $L_1$ plane cross section with shell  
-column 12: effective acceleration averaged over the intersection with $L_1$-plane
+
+column 12: effective acceleration averaged over the intersection with $L_1$-plane 
+
 column 13: effective acceleration averaged over $L_1$ cross-section area
+
 column 14: inverse effective acceleration averaged over $L_1$ cross-section area
 
 The folder "binary_tables_compact_ss_units" (which should be unzipped for the code to work); only includes properties that are useful in the described subroutine, and for mass transfer calculations. The 3 properties in column 4, 6, and 9 are now provided in the units of a single point-mass star's gravitational acceleration at that zone.
