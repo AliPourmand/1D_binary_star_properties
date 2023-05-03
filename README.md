@@ -72,7 +72,7 @@ column 7: area of L plane cross section with shell passing $L_2$
 column 8: area of L plane cross section with shell passing $L_3$  
 
 
-The supplimntary data tables:
+The supplementary data tables:
 
 tables_without_l1 is essentially the same as the main table, but 3D integrations were performed excluding $L_1$ plane 
 
