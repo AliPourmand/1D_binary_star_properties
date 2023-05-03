@@ -28,9 +28,9 @@ column 2: mass ratio of system (donor to companion)
 column 3: relative potential as defined in Mochnacki (1984)  eg, for potentials higher than psiL1: F=psiL1/psi  
 column 4: potential of shell  
 column 5: volume equivalent radius of shell divided by orbital separation  
-column 6: avg acceleration on shell   
-column 7: inverse effective acceleration averaged on the equipotential shell
-column 8: total area of shell  
+column 6: avg acceleration on shell (including the L1 plane)
+column 7: inverse effective acceleration averaged on the equipotential shell (including the L1 plane)
+column 8: total area of shell (including the L1 plane)
 column 9: area of $L_1$ plane cross section with shell  
 column 10: y intersection of $L_1$ plane cross section with shell  
 column 11: z intersection of $L_1$ plane cross section with shell  
@@ -58,3 +58,15 @@ column 6: avg acceleration on L plane cross section with shell passing $L_3$
 column 7: area of L plane cross section with shell passing $L_2$  
 column 8: area of L plane cross section with shell passing $L_3$  
 
+The supplimntary data tables:
+
+tables_without_l1 is essentially the same as the main table, but 3D integrations were performed excluding L1 plane 
+
+l1_etax	provides integrations got the x-component of the effective acceleration on the L1 plane
+column 1: equipotential shell number
+column 2: potential of shell  
+column 3: Area of L1 plane within the potential
+column 4: y intersection of $L_1$ plane cross section with the potential
+column 5: z intersection of $L_1$ plane cross section with the potential
+column 6: x-component of the effective acceleration averaged over $L_1$ cross-section area
+column 7: x-component of the effective acceleration averaged over the intersection with $L_1$-plane
