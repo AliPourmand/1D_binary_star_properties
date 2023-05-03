@@ -76,7 +76,7 @@ The supplementary data tables:
 
 tables_without_l1 is essentially the same as the main table, but 3D integrations were performed excluding $L_1$ plane 
 
-l1_etax	provides integrations got the x-component of the effective acceleration on the L1 plane
+l1_etax	provides integrations for the x-component of the effective acceleration on the $L_1$ plane
 
 column 1: equipotential shell number
 
