@@ -70,3 +70,19 @@ column 5: avg acceleration on L plane cross section with shell passing $L_2$
 column 6: avg acceleration on L plane cross section with shell passing $L_3$  
 column 7: area of L plane cross section with shell passing $L_2$  
 column 8: area of L plane cross section with shell passing $L_3$  
+
+
+The supplimntary data tables:
+
+tables_without_l1 is essentially the same as the main table, but 3D integrations were performed excluding L1 plane 
+
+l1_etax	provides integrations got the x-component of the effective acceleration on the L1 plane
+column 1: equipotential shell number
+column 2: potential of shell  
+column 3: Area of L1 plane within the potential
+column 4: y intersection of $L_1$ plane cross section with the potential
+column 5: z intersection of $L_1$ plane cross section with the potential
+column 6: x-component of the effective acceleration averaged over $L_1$ cross-section area
+column 7: x-component of the effective acceleration averaged over the intersection with $L_1$-plane
+
+
