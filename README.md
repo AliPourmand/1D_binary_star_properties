@@ -59,8 +59,7 @@ column 2: relative potential of shell
 column 3: relative avg acceleration on shell   
 column 4: relative avg acceleration on L plane cross section with shell  
 column 5: area of L plane cross section with shell  
-column 6: total area of shell    
-
+column 6: total area of shell (including the $L_1$ plane)
 The file l1l2l3_props.dat includes properties of the three lagrange points for these 109 mass ratios. The properties are listed below:
 
 column 1: mass ratio of system (donor to companion)  
