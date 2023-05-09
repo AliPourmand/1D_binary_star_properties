@@ -1,6 +1,6 @@
 # 1D_binary_star_properties
 
-The main purpose of this repository is to provide numerical tables describing binary properties. The description of the method with which the tables were obtained can be found in the accompanying paper ``Properties of binary systems in a one-dimensional approximation". IF you use the tables in your research, we ask you to cite the paper. 
+The main purpose of this repository is to provide numerical tables describing binary properties. The description of the method with which the tables were obtained can be found in the accompanying paper ``Properties of binary systems in a one-dimensional approximation". If you use the tables in your research, we ask you to cite the paper. 
 
 The provided sample code demonstrates how to obtaine the 1D effective acceleration a star in a binary system feels (which is a function of the distance to the center of the star).
 
@@ -33,11 +33,11 @@ column 4: potential of shell
 
 column 5: volume equivalent radius of shell divided by orbital separation  
 
-column 6: avg acceleration on shell   
+column 6: avg acceleration on shell (3D surface integrations including the $L_1$ plane) 
 
-column 7: inverse effective acceleration averaged on the equipotential shell
+column 7: inverse effective acceleration averaged on the equipotential shell (3D surface integrations including the $L_1$ plane) 
 
-column 8: total area of shell  
+column 8: total area of shell (3D surface integrations including the $L_1$ plane) 
 
 column 9: area of $L_1$ plane cross section with shell  
 
@@ -45,21 +45,24 @@ column 10: y intersection of $L_1$ plane cross section with shell
 
 column 11: z intersection of $L_1$ plane cross section with shell  
 
-column 12: effective acceleration averaged over the intersection with $L_1$-plane 
+column 12: effective acceleration averaged over the intersection with $L_1$-plane (2D integrations)
 
-column 13: effective acceleration averaged over $L_1$ cross-section area
+column 13: effective acceleration averaged over $L_1$ cross-section area (2D integrations)
 
-column 14: inverse effective acceleration averaged over $L_1$ cross-section area
+column 14: inverse effective acceleration averaged over $L_1$ cross-section area (2D integrations)
 
 The folder "binary_tables_compact_ss_units" (which should be unzipped for the code to work); only includes properties that are useful in the described subroutine, and for mass transfer calculations. The 3 properties in column 4, 6, and 13 are now provided in the units of a single point-mass star's gravitational acceleration at that zone.
 The full format of these tables are listed below:
 
 column 1: volume equivalent radius of shell divided by orbital separation  
 column 2: relative potential of shell  
-column 3: relative avg acceleration on shell   
+column 3: relative avg acceleration on shell (including the $L_1$ plane)  
 column 4: relative avg acceleration on L plane cross section with shell  
 column 5: area of L plane cross section with shell  
 column 6: total area of shell (including the $L_1$ plane)
+
+Note that the provided code that uses the table above reconstructs the truncated (limited by $L_1$ plane) values using 2D values in L1 plane; see the paper. Should you need equipotentials for a start that has $\log_{10} q> 2.5$, you should reduce into the same format tables_without_l1
+
 The file l1l2l3_props.dat includes properties of the three lagrange points for these 109 mass ratios. The properties are listed below:
 
 column 1: mass ratio of system (donor to companion)  
