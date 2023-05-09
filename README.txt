@@ -48,7 +48,7 @@ column 4: relative avg acceleration on L plane cross section with shell
 column 5: area of L plane cross section with shell  
 column 6: total area of shell (including the $L_1$ plane)
 
-Note that the provided code that uses the table above reconstructs the truncated (limited by $L_1$ plane) values using 2D values in L1 plane; see the paper. Should you need equipotentials for a start that has $\log_{10} q> 2.5$, you should reduce into the same format tables_without_l1
+Note that the provided code that uses the table above reconstructs the truncated (limited by $L_1$ plane) values using 2D values in L1 plane; see the paper. Should you need equipotentials for a star that has $\log_{10} q> 2.5$, you should reduce into the same format tables_without_l1
 
 The file l1l2l3_props.dat includes properties of the three lagrange points for these 109 mass ratios. The properties are listed below:
 
