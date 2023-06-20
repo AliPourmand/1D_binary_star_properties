@@ -69,10 +69,11 @@ column 1: mass ratio of system (donor to companion)
 column 2: volume equivalent radius of shell passing $L_1$  
 column 3: volume equivalent radius of shell passing $L_2$  
 column 4: volume equivalent radius of shell passing $L_3$  
-column 5: avg acceleration on L plane cross section with shell passing $L_2$  
-column 6: avg acceleration on L plane cross section with shell passing $L_3$  
-column 7: area of L plane cross section with shell passing $L_2$  
-column 8: area of L plane cross section with shell passing $L_3$  
+column 5: area of L plane cross section with shell passing $L_2$  
+column 6: area of L plane cross section with shell passing $L_3$  
+column 7: avg acceleration on L plane cross section with shell passing $L_2$  
+column 8: avg acceleration on L plane cross section with shell passing $L_3$  
+
 
 
 The supplementary data tables:
